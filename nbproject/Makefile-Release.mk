@@ -40,7 +40,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/Mayor-de-4.o \
 	${OBJECTDIR}/Operacion1.o \
 	${OBJECTDIR}/Operacion2.o \
-	${OBJECTDIR}/tablas-de-multiplicar-while-anidado.o
+	${OBJECTDIR}/Tablas-While.o \
+	${OBJECTDIR}/tablas-while-anidado.o
 
 
 # C Compiler Flags
@@ -92,10 +93,15 @@ ${OBJECTDIR}/Operacion2.o: Operacion2.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Operacion2.o Operacion2.c
 
-${OBJECTDIR}/tablas-de-multiplicar-while-anidado.o: tablas-de-multiplicar-while-anidado.c
+${OBJECTDIR}/Tablas-While.o: Tablas-While.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tablas-de-multiplicar-while-anidado.o tablas-de-multiplicar-while-anidado.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tablas-While.o Tablas-While.c
+
+${OBJECTDIR}/tablas-while-anidado.o: tablas-while-anidado.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tablas-while-anidado.o tablas-while-anidado.c
 
 # Subprojects
 .build-subprojects:

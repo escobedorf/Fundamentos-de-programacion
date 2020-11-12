@@ -17,7 +17,8 @@
       <itemPath>Mayor-de-4.c</itemPath>
       <itemPath>Operacion1.c</itemPath>
       <itemPath>Operacion2.c</itemPath>
-      <itemPath>tablas-de-multiplicar-while-anidado.c</itemPath>
+      <itemPath>Tablas-While.c</itemPath>
+      <itemPath>tablas-while-anidado.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -51,10 +52,9 @@
       </item>
       <item path="Operacion2.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="tablas-de-multiplicar-while-anidado.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
+      <item path="Tablas-While.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tablas-while-anidado.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -87,10 +87,9 @@
       </item>
       <item path="Operacion2.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="tablas-de-multiplicar-while-anidado.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
+      <item path="Tablas-While.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tablas-while-anidado.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

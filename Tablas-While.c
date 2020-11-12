@@ -13,7 +13,7 @@ int  main ( int argc, char ** argv)
         printf("%d X %d = %d\n",x,t,x*t);
         t = t + 1;
         
-        while (t >10){
+        while (t >tope){
             t = 1;
             x = x + 1;
             printf("\n");
