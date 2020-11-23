@@ -41,6 +41,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/Operacion1.o \
 	${OBJECTDIR}/Operacion2.o \
 	${OBJECTDIR}/Tablas-While.o \
+	${OBJECTDIR}/Tarea1-Array.o \
+	${OBJECTDIR}/Tarea1.o \
 	${OBJECTDIR}/tablas-for-anidado.o \
 	${OBJECTDIR}/tablas-while-anidado.o
 
@@ -98,6 +100,16 @@ ${OBJECTDIR}/Tablas-While.o: Tablas-While.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tablas-While.o Tablas-While.c
+
+${OBJECTDIR}/Tarea1-Array.o: Tarea1-Array.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea1-Array.o Tarea1-Array.c
+
+${OBJECTDIR}/Tarea1.o: Tarea1.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea1.o Tarea1.c
 
 ${OBJECTDIR}/tablas-for-anidado.o: tablas-for-anidado.c
 	${MKDIR} -p ${OBJECTDIR}

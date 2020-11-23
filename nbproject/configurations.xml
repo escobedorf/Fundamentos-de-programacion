@@ -18,6 +18,8 @@
       <itemPath>Operacion1.c</itemPath>
       <itemPath>Operacion2.c</itemPath>
       <itemPath>Tablas-While.c</itemPath>
+      <itemPath>Tarea1-Array.c</itemPath>
+      <itemPath>Tarea1.c</itemPath>
       <itemPath>tablas-for-anidado.c</itemPath>
       <itemPath>tablas-while-anidado.c</itemPath>
     </logicalFolder>
@@ -55,6 +57,10 @@
       </item>
       <item path="Tablas-While.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Tarea1-Array.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tarea1.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="tablas-for-anidado.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="tablas-while-anidado.c" ex="false" tool="0" flavor2="0">
@@ -91,6 +97,10 @@
       <item path="Operacion2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas-While.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tarea1-Array.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tarea1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="tablas-for-anidado.c" ex="false" tool="0" flavor2="0">
       </item>
