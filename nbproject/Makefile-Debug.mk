@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Fibonacci-while.o \
+	${OBJECTDIR}/Max,Min-2.o \
 	${OBJECTDIR}/Mayor-de-3.o \
 	${OBJECTDIR}/Mayor-de-4.o \
 	${OBJECTDIR}/Minimo,Maximo.o \
@@ -76,6 +77,11 @@ ${OBJECTDIR}/Fibonacci-while.o: Fibonacci-while.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Fibonacci-while.o Fibonacci-while.c
+
+${OBJECTDIR}/Max,Min-2.o: Max,Min-2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Max,Min-2.o Max,Min-2.c
 
 ${OBJECTDIR}/Mayor-de-3.o: Mayor-de-3.c
 	${MKDIR} -p ${OBJECTDIR}

@@ -13,6 +13,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Fibonacci-while.c</itemPath>
+      <itemPath>Max,Min-2.c</itemPath>
       <itemPath>Mayor-de-3.c</itemPath>
       <itemPath>Mayor-de-4.c</itemPath>
       <itemPath>Minimo,Maximo.c</itemPath>
@@ -47,6 +48,8 @@
       <compileType>
       </compileType>
       <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Max,Min-2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Mayor-de-3.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -90,6 +93,8 @@
         </asmTool>
       </compileType>
       <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Max,Min-2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Mayor-de-3.c" ex="false" tool="0" flavor2="0">
       </item>
