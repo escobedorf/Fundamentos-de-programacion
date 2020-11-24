@@ -38,11 +38,12 @@ OBJECTFILES= \
 	${OBJECTDIR}/Fibonacci-while.o \
 	${OBJECTDIR}/Mayor-de-3.o \
 	${OBJECTDIR}/Mayor-de-4.o \
+	${OBJECTDIR}/Minimo,Maximo.o \
 	${OBJECTDIR}/Operacion1.o \
 	${OBJECTDIR}/Operacion2.o \
 	${OBJECTDIR}/Tablas-While.o \
 	${OBJECTDIR}/Tarea1-Array.o \
-	${OBJECTDIR}/Tarea1.o \
+	${OBJECTDIR}/Tarea2-Array\ .o \
 	${OBJECTDIR}/tablas-for-anidado.o \
 	${OBJECTDIR}/tablas-while-anidado.o
 
@@ -86,6 +87,11 @@ ${OBJECTDIR}/Mayor-de-4.o: Mayor-de-4.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Mayor-de-4.o Mayor-de-4.c
 
+${OBJECTDIR}/Minimo,Maximo.o: Minimo,Maximo.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Minimo,Maximo.o Minimo,Maximo.c
+
 ${OBJECTDIR}/Operacion1.o: Operacion1.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -106,10 +112,11 @@ ${OBJECTDIR}/Tarea1-Array.o: Tarea1-Array.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea1-Array.o Tarea1-Array.c
 
-${OBJECTDIR}/Tarea1.o: Tarea1.c
+.NO_PARALLEL:${OBJECTDIR}/Tarea2-Array\ .o
+${OBJECTDIR}/Tarea2-Array\ .o: Tarea2-Array\ .c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea1.o Tarea1.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2-Array\ .o Tarea2-Array\ .c
 
 ${OBJECTDIR}/tablas-for-anidado.o: tablas-for-anidado.c
 	${MKDIR} -p ${OBJECTDIR}
