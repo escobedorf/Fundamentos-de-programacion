@@ -42,6 +42,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Minimo,Maximo.o \
 	${OBJECTDIR}/Operacion1.o \
 	${OBJECTDIR}/Operacion2.o \
+	${OBJECTDIR}/Promedio-1.o \
 	${OBJECTDIR}/Tablas-While.o \
 	${OBJECTDIR}/Tarea1-Array.o \
 	${OBJECTDIR}/Tarea2-Array\ .o \
@@ -107,6 +108,11 @@ ${OBJECTDIR}/Operacion2.o: Operacion2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Operacion2.o Operacion2.c
+
+${OBJECTDIR}/Promedio-1.o: Promedio-1.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Promedio-1.o Promedio-1.c
 
 ${OBJECTDIR}/Tablas-While.o: Tablas-While.c
 	${MKDIR} -p ${OBJECTDIR}

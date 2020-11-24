@@ -19,6 +19,7 @@
       <itemPath>Minimo,Maximo.c</itemPath>
       <itemPath>Operacion1.c</itemPath>
       <itemPath>Operacion2.c</itemPath>
+      <itemPath>Promedio-1.c</itemPath>
       <itemPath>Tablas-While.c</itemPath>
       <itemPath>Tarea1-Array.c</itemPath>
       <itemPath>Tarea2-Array .c</itemPath>
@@ -60,6 +61,8 @@
       <item path="Operacion1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Operacion2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Promedio-1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas-While.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -105,6 +108,8 @@
       <item path="Operacion1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Operacion2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Promedio-1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas-While.c" ex="false" tool="0" flavor2="0">
       </item>
