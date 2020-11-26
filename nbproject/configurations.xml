@@ -12,14 +12,16 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>1-Promedio.c</itemPath>
+      <itemPath>2-Max,Min.c</itemPath>
+      <itemPath>3-Ordenamiento-Burbuja.c</itemPath>
+      <itemPath>4-Ordenamiento-Optimizado.c</itemPath>
       <itemPath>Fibonacci-while.c</itemPath>
-      <itemPath>Max,Min-2.c</itemPath>
       <itemPath>Mayor-de-3.c</itemPath>
       <itemPath>Mayor-de-4.c</itemPath>
       <itemPath>Minimo,Maximo.c</itemPath>
       <itemPath>Operacion1.c</itemPath>
       <itemPath>Operacion2.c</itemPath>
-      <itemPath>Promedio-1.c</itemPath>
       <itemPath>Tablas-While.c</itemPath>
       <itemPath>Tarea1-Array.c</itemPath>
       <itemPath>Tarea2-Array .c</itemPath>
@@ -48,9 +50,15 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
+      <item path="1-Promedio.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Max,Min-2.c" ex="false" tool="0" flavor2="0">
+      <item path="2-Max,Min.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="3-Ordenamiento-Burbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="4-Ordenamiento-Optimizado.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Mayor-de-3.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -61,8 +69,6 @@
       <item path="Operacion1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Operacion2.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Promedio-1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas-While.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -95,9 +101,15 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
+      <item path="1-Promedio.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Max,Min-2.c" ex="false" tool="0" flavor2="0">
+      <item path="2-Max,Min.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="3-Ordenamiento-Burbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="4-Ordenamiento-Optimizado.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Mayor-de-3.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -108,8 +120,6 @@
       <item path="Operacion1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Operacion2.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Promedio-1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas-While.c" ex="false" tool="0" flavor2="0">
       </item>

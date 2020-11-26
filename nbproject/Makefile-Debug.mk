@@ -35,14 +35,16 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/1-Promedio.o \
+	${OBJECTDIR}/2-Max,Min.o \
+	${OBJECTDIR}/3-Ordenamiento-Burbuja.o \
+	${OBJECTDIR}/4-Ordenamiento-Optimizado.o \
 	${OBJECTDIR}/Fibonacci-while.o \
-	${OBJECTDIR}/Max,Min-2.o \
 	${OBJECTDIR}/Mayor-de-3.o \
 	${OBJECTDIR}/Mayor-de-4.o \
 	${OBJECTDIR}/Minimo,Maximo.o \
 	${OBJECTDIR}/Operacion1.o \
 	${OBJECTDIR}/Operacion2.o \
-	${OBJECTDIR}/Promedio-1.o \
 	${OBJECTDIR}/Tablas-While.o \
 	${OBJECTDIR}/Tarea1-Array.o \
 	${OBJECTDIR}/Tarea2-Array\ .o \
@@ -74,15 +76,30 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion.exe: ${OB
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos_de_programacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/1-Promedio.o: 1-Promedio.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/1-Promedio.o 1-Promedio.c
+
+${OBJECTDIR}/2-Max,Min.o: 2-Max,Min.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/2-Max,Min.o 2-Max,Min.c
+
+${OBJECTDIR}/3-Ordenamiento-Burbuja.o: 3-Ordenamiento-Burbuja.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/3-Ordenamiento-Burbuja.o 3-Ordenamiento-Burbuja.c
+
+${OBJECTDIR}/4-Ordenamiento-Optimizado.o: 4-Ordenamiento-Optimizado.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4-Ordenamiento-Optimizado.o 4-Ordenamiento-Optimizado.c
+
 ${OBJECTDIR}/Fibonacci-while.o: Fibonacci-while.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Fibonacci-while.o Fibonacci-while.c
-
-${OBJECTDIR}/Max,Min-2.o: Max,Min-2.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Max,Min-2.o Max,Min-2.c
 
 ${OBJECTDIR}/Mayor-de-3.o: Mayor-de-3.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -108,11 +125,6 @@ ${OBJECTDIR}/Operacion2.o: Operacion2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Operacion2.o Operacion2.c
-
-${OBJECTDIR}/Promedio-1.o: Promedio-1.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Promedio-1.o Promedio-1.c
 
 ${OBJECTDIR}/Tablas-While.o: Tablas-While.c
 	${MKDIR} -p ${OBJECTDIR}
