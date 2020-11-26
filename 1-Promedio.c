@@ -2,11 +2,8 @@
 #include <stdlib.h>
 
 int main(int argc, char** argv) {
-float registro;
 int contador;
-float calif;
-float suma = 0;
-float promedio;
+float registro, calif, suma = 0, promedio ;
     printf("Cuantas calificaciones deseas introducir: " );
         scanf("%f", &registro);
 for(contador=1; contador<=registro; contador++)
