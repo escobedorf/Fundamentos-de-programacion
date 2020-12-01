@@ -17,6 +17,8 @@
       <itemPath>3-Ordenamiento-Burbuja.c</itemPath>
       <itemPath>4-Ordenamiento-Optimizado.c</itemPath>
       <itemPath>Fibonacci-while.c</itemPath>
+      <itemPath>Funciones.c</itemPath>
+      <itemPath>Funciones2.c</itemPath>
       <itemPath>Mayor-de-3.c</itemPath>
       <itemPath>Mayor-de-4.c</itemPath>
       <itemPath>Minimo,Maximo.c</itemPath>
@@ -59,6 +61,10 @@
       <item path="4-Ordenamiento-Optimizado.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Funciones.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Funciones2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Mayor-de-3.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -110,6 +116,10 @@
       <item path="4-Ordenamiento-Optimizado.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Funciones.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Funciones2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Mayor-de-3.c" ex="false" tool="0" flavor2="0">
       </item>

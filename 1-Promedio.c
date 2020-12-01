@@ -4,7 +4,7 @@
 int main(int argc, char** argv) {
 int contador;
 float registro, calif, suma = 0, promedio ;
-    printf("Cuantas calificaciones deseas introducir: " );
+    printf("¿Cuantas calificaciones deseas introducir? " );
         scanf("%f", &registro);
 for(contador=1; contador<=registro; contador++)
     {

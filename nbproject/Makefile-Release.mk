@@ -40,6 +40,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/3-Ordenamiento-Burbuja.o \
 	${OBJECTDIR}/4-Ordenamiento-Optimizado.o \
 	${OBJECTDIR}/Fibonacci-while.o \
+	${OBJECTDIR}/Funciones.o \
+	${OBJECTDIR}/Funciones2.o \
 	${OBJECTDIR}/Mayor-de-3.o \
 	${OBJECTDIR}/Mayor-de-4.o \
 	${OBJECTDIR}/Minimo,Maximo.o \
@@ -100,6 +102,16 @@ ${OBJECTDIR}/Fibonacci-while.o: Fibonacci-while.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Fibonacci-while.o Fibonacci-while.c
+
+${OBJECTDIR}/Funciones.o: Funciones.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Funciones.o Funciones.c
+
+${OBJECTDIR}/Funciones2.o: Funciones2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Funciones2.o Funciones2.c
 
 ${OBJECTDIR}/Mayor-de-3.o: Mayor-de-3.c
 	${MKDIR} -p ${OBJECTDIR}
