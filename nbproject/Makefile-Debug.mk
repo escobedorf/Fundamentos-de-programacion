@@ -39,6 +39,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/2-Max,Min.o \
 	${OBJECTDIR}/3-Ordenamiento-Burbuja.o \
 	${OBJECTDIR}/4-Ordenamiento-Optimizado.o \
+	${OBJECTDIR}/Calculador-de-temperaturas.o \
 	${OBJECTDIR}/Fibonacci-while.o \
 	${OBJECTDIR}/Funciones.o \
 	${OBJECTDIR}/Funciones2.o \
@@ -97,6 +98,11 @@ ${OBJECTDIR}/4-Ordenamiento-Optimizado.o: 4-Ordenamiento-Optimizado.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4-Ordenamiento-Optimizado.o 4-Ordenamiento-Optimizado.c
+
+${OBJECTDIR}/Calculador-de-temperaturas.o: Calculador-de-temperaturas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Calculador-de-temperaturas.o Calculador-de-temperaturas.c
 
 ${OBJECTDIR}/Fibonacci-while.o: Fibonacci-while.c
 	${MKDIR} -p ${OBJECTDIR}
