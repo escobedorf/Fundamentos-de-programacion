@@ -51,6 +51,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tablas-While.o \
 	${OBJECTDIR}/Tarea1-Array.o \
 	${OBJECTDIR}/Tarea2-Array\ .o \
+	${OBJECTDIR}/menu-temperaturas-void.o \
 	${OBJECTDIR}/tablas-for-anidado.o \
 	${OBJECTDIR}/tablas-while-anidado.o
 
@@ -159,6 +160,11 @@ ${OBJECTDIR}/Tarea2-Array\ .o: Tarea2-Array\ .c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2-Array\ .o Tarea2-Array\ .c
+
+${OBJECTDIR}/menu-temperaturas-void.o: menu-temperaturas-void.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/menu-temperaturas-void.o menu-temperaturas-void.c
 
 ${OBJECTDIR}/tablas-for-anidado.o: tablas-for-anidado.c
 	${MKDIR} -p ${OBJECTDIR}

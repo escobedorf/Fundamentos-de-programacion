@@ -28,6 +28,7 @@
       <itemPath>Tablas-While.c</itemPath>
       <itemPath>Tarea1-Array.c</itemPath>
       <itemPath>Tarea2-Array .c</itemPath>
+      <itemPath>menu-temperaturas-void.c</itemPath>
       <itemPath>tablas-for-anidado.c</itemPath>
       <itemPath>tablas-while-anidado.c</itemPath>
     </logicalFolder>
@@ -85,6 +86,8 @@
       </item>
       <item path="Tarea2-Array .c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="menu-temperaturas-void.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="tablas-for-anidado.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="tablas-while-anidado.c" ex="false" tool="0" flavor2="0">
@@ -141,6 +144,8 @@
       <item path="Tarea1-Array.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea2-Array .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menu-temperaturas-void.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="tablas-for-anidado.c" ex="false" tool="0" flavor2="0">
       </item>
