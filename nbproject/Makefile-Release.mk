@@ -45,6 +45,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Funciones2.o \
 	${OBJECTDIR}/Mayor-de-3.o \
 	${OBJECTDIR}/Mayor-de-4.o \
+	${OBJECTDIR}/Menu-Temperaturas-while.o \
 	${OBJECTDIR}/Minimo,Maximo.o \
 	${OBJECTDIR}/Operacion1.o \
 	${OBJECTDIR}/Operacion2.o \
@@ -129,6 +130,11 @@ ${OBJECTDIR}/Mayor-de-4.o: Mayor-de-4.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Mayor-de-4.o Mayor-de-4.c
+
+${OBJECTDIR}/Menu-Temperaturas-while.o: Menu-Temperaturas-while.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Menu-Temperaturas-while.o Menu-Temperaturas-while.c
 
 ${OBJECTDIR}/Minimo,Maximo.o: Minimo,Maximo.c
 	${MKDIR} -p ${OBJECTDIR}
