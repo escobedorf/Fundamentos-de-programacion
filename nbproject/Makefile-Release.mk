@@ -52,6 +52,32 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tablas-While.o \
 	${OBJECTDIR}/Tarea1-Array.o \
 	${OBJECTDIR}/Tarea2-Array\ .o \
+	${OBJECTDIR}/c1-par,impar.o \
+	${OBJECTDIR}/c10-\ menu\ de\ conversion\ de\ moneda.o \
+	${OBJECTDIR}/c11-orden\ 10\ numeros.o \
+	${OBJECTDIR}/c12-media\ 10\ numeros.o \
+	${OBJECTDIR}/c13-\ menu\ 100\ ascendente\ o\ descendente.o \
+	${OBJECTDIR}/c14-menu\ de\ suma\ y\ promedio.o \
+	${OBJECTDIR}/c15-sum,rest,mult,div\ 10\ numeros.o \
+	${OBJECTDIR}/c16-\ tablas\ de\ multiplicar.o \
+	${OBJECTDIR}/c17-\ calcula\ bocales\ de\ una\ frase.o \
+	${OBJECTDIR}/c17-.o \
+	${OBJECTDIR}/c18-\ area\ de\ triangulo.o \
+	${OBJECTDIR}/c19-\ mayor\ de\ 3.o \
+	${OBJECTDIR}/c2-mayor,menor,2numeros.o \
+	${OBJECTDIR}/c20-\ cubo\ de\ 5\ numeros.o \
+	${OBJECTDIR}/c21-cifra\ y\ posición.o \
+	${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas.o \
+	${OBJECTDIR}/c23-direccion\ de\ una\ variable.o \
+	${OBJECTDIR}/c24-suma\ de\ dos\ numeros-direccion.o \
+	${OBJECTDIR}/c25-valores\ de\ arreglo\ con\ punteros.o \
+	${OBJECTDIR}/c3-mayor,menor\ de\ edad.o \
+	${OBJECTDIR}/c4-mayor\ 4\ numeros.o \
+	${OBJECTDIR}/c5-sueldo\ de\ trabajador.o \
+	${OBJECTDIR}/c6-numero\ negativo\ o\ positivo\ .o \
+	${OBJECTDIR}/c7-omitir\ numero.o \
+	${OBJECTDIR}/c8-dia\ de\ la\ semana.o \
+	${OBJECTDIR}/c9-calificacion\ .o \
 	${OBJECTDIR}/menu-temperaturas-void.o \
 	${OBJECTDIR}/tablas-for-anidado.o \
 	${OBJECTDIR}/tablas-while-anidado.o
@@ -166,6 +192,159 @@ ${OBJECTDIR}/Tarea2-Array\ .o: Tarea2-Array\ .c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2-Array\ .o Tarea2-Array\ .c
+
+${OBJECTDIR}/c1-par,impar.o: c1-par,impar.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c1-par,impar.o c1-par,impar.c
+
+.NO_PARALLEL:${OBJECTDIR}/c10-\ menu\ de\ conversion\ de\ moneda.o
+${OBJECTDIR}/c10-\ menu\ de\ conversion\ de\ moneda.o: c10-\ menu\ de\ conversion\ de\ moneda.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c10-\ menu\ de\ conversion\ de\ moneda.o c10-\ menu\ de\ conversion\ de\ moneda.c
+
+.NO_PARALLEL:${OBJECTDIR}/c11-orden\ 10\ numeros.o
+${OBJECTDIR}/c11-orden\ 10\ numeros.o: c11-orden\ 10\ numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c11-orden\ 10\ numeros.o c11-orden\ 10\ numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/c12-media\ 10\ numeros.o
+${OBJECTDIR}/c12-media\ 10\ numeros.o: c12-media\ 10\ numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c12-media\ 10\ numeros.o c12-media\ 10\ numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/c13-\ menu\ 100\ ascendente\ o\ descendente.o
+${OBJECTDIR}/c13-\ menu\ 100\ ascendente\ o\ descendente.o: c13-\ menu\ 100\ ascendente\ o\ descendente.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c13-\ menu\ 100\ ascendente\ o\ descendente.o c13-\ menu\ 100\ ascendente\ o\ descendente.c
+
+.NO_PARALLEL:${OBJECTDIR}/c14-menu\ de\ suma\ y\ promedio.o
+${OBJECTDIR}/c14-menu\ de\ suma\ y\ promedio.o: c14-menu\ de\ suma\ y\ promedio.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c14-menu\ de\ suma\ y\ promedio.o c14-menu\ de\ suma\ y\ promedio.c
+
+.NO_PARALLEL:${OBJECTDIR}/c15-sum,rest,mult,div\ 10\ numeros.o
+${OBJECTDIR}/c15-sum,rest,mult,div\ 10\ numeros.o: c15-sum,rest,mult,div\ 10\ numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c15-sum,rest,mult,div\ 10\ numeros.o c15-sum,rest,mult,div\ 10\ numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/c16-\ tablas\ de\ multiplicar.o
+${OBJECTDIR}/c16-\ tablas\ de\ multiplicar.o: c16-\ tablas\ de\ multiplicar.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c16-\ tablas\ de\ multiplicar.o c16-\ tablas\ de\ multiplicar.c
+
+.NO_PARALLEL:${OBJECTDIR}/c17-\ calcula\ bocales\ de\ una\ frase.o
+${OBJECTDIR}/c17-\ calcula\ bocales\ de\ una\ frase.o: c17-\ calcula\ bocales\ de\ una\ frase.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c17-\ calcula\ bocales\ de\ una\ frase.o c17-\ calcula\ bocales\ de\ una\ frase.c
+
+${OBJECTDIR}/c17-.o: c17-.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c17-.o c17-.c
+
+.NO_PARALLEL:${OBJECTDIR}/c18-\ area\ de\ triangulo.o
+${OBJECTDIR}/c18-\ area\ de\ triangulo.o: c18-\ area\ de\ triangulo.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c18-\ area\ de\ triangulo.o c18-\ area\ de\ triangulo.c
+
+.NO_PARALLEL:${OBJECTDIR}/c19-\ mayor\ de\ 3.o
+${OBJECTDIR}/c19-\ mayor\ de\ 3.o: c19-\ mayor\ de\ 3.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c19-\ mayor\ de\ 3.o c19-\ mayor\ de\ 3.c
+
+${OBJECTDIR}/c2-mayor,menor,2numeros.o: c2-mayor,menor,2numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c2-mayor,menor,2numeros.o c2-mayor,menor,2numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/c20-\ cubo\ de\ 5\ numeros.o
+${OBJECTDIR}/c20-\ cubo\ de\ 5\ numeros.o: c20-\ cubo\ de\ 5\ numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c20-\ cubo\ de\ 5\ numeros.o c20-\ cubo\ de\ 5\ numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/c21-cifra\ y\ posición.o
+${OBJECTDIR}/c21-cifra\ y\ posición.o: c21-cifra\ y\ posición.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c21-cifra\ y\ posición.o c21-cifra\ y\ posición.c
+
+.NO_PARALLEL:${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas.o
+${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas.o: c22-menu\ de\ funciones\ matematicas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas.o c22-menu\ de\ funciones\ matematicas.c
+
+.NO_PARALLEL:${OBJECTDIR}/c23-direccion\ de\ una\ variable.o
+${OBJECTDIR}/c23-direccion\ de\ una\ variable.o: c23-direccion\ de\ una\ variable.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c23-direccion\ de\ una\ variable.o c23-direccion\ de\ una\ variable.c
+
+.NO_PARALLEL:${OBJECTDIR}/c24-suma\ de\ dos\ numeros-direccion.o
+${OBJECTDIR}/c24-suma\ de\ dos\ numeros-direccion.o: c24-suma\ de\ dos\ numeros-direccion.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c24-suma\ de\ dos\ numeros-direccion.o c24-suma\ de\ dos\ numeros-direccion.c
+
+.NO_PARALLEL:${OBJECTDIR}/c25-valores\ de\ arreglo\ con\ punteros.o
+${OBJECTDIR}/c25-valores\ de\ arreglo\ con\ punteros.o: c25-valores\ de\ arreglo\ con\ punteros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c25-valores\ de\ arreglo\ con\ punteros.o c25-valores\ de\ arreglo\ con\ punteros.c
+
+.NO_PARALLEL:${OBJECTDIR}/c3-mayor,menor\ de\ edad.o
+${OBJECTDIR}/c3-mayor,menor\ de\ edad.o: c3-mayor,menor\ de\ edad.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c3-mayor,menor\ de\ edad.o c3-mayor,menor\ de\ edad.c
+
+.NO_PARALLEL:${OBJECTDIR}/c4-mayor\ 4\ numeros.o
+${OBJECTDIR}/c4-mayor\ 4\ numeros.o: c4-mayor\ 4\ numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c4-mayor\ 4\ numeros.o c4-mayor\ 4\ numeros.c
+
+.NO_PARALLEL:${OBJECTDIR}/c5-sueldo\ de\ trabajador.o
+${OBJECTDIR}/c5-sueldo\ de\ trabajador.o: c5-sueldo\ de\ trabajador.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c5-sueldo\ de\ trabajador.o c5-sueldo\ de\ trabajador.c
+
+.NO_PARALLEL:${OBJECTDIR}/c6-numero\ negativo\ o\ positivo\ .o
+${OBJECTDIR}/c6-numero\ negativo\ o\ positivo\ .o: c6-numero\ negativo\ o\ positivo\ .c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c6-numero\ negativo\ o\ positivo\ .o c6-numero\ negativo\ o\ positivo\ .c
+
+.NO_PARALLEL:${OBJECTDIR}/c7-omitir\ numero.o
+${OBJECTDIR}/c7-omitir\ numero.o: c7-omitir\ numero.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c7-omitir\ numero.o c7-omitir\ numero.c
+
+.NO_PARALLEL:${OBJECTDIR}/c8-dia\ de\ la\ semana.o
+${OBJECTDIR}/c8-dia\ de\ la\ semana.o: c8-dia\ de\ la\ semana.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c8-dia\ de\ la\ semana.o c8-dia\ de\ la\ semana.c
+
+.NO_PARALLEL:${OBJECTDIR}/c9-calificacion\ .o
+${OBJECTDIR}/c9-calificacion\ .o: c9-calificacion\ .c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c9-calificacion\ .o c9-calificacion\ .c
 
 ${OBJECTDIR}/menu-temperaturas-void.o: menu-temperaturas-void.c
 	${MKDIR} -p ${OBJECTDIR}

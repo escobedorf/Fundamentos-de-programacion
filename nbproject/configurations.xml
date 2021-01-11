@@ -29,6 +29,32 @@
       <itemPath>Tablas-While.c</itemPath>
       <itemPath>Tarea1-Array.c</itemPath>
       <itemPath>Tarea2-Array .c</itemPath>
+      <itemPath>c1-par,impar.c</itemPath>
+      <itemPath>c10- menu de conversion de moneda.c</itemPath>
+      <itemPath>c11-orden 10 numeros.c</itemPath>
+      <itemPath>c12-media 10 numeros.c</itemPath>
+      <itemPath>c13- menu 100 ascendente o descendente.c</itemPath>
+      <itemPath>c14-menu de suma y promedio.c</itemPath>
+      <itemPath>c15-sum,rest,mult,div 10 numeros.c</itemPath>
+      <itemPath>c16- tablas de multiplicar.c</itemPath>
+      <itemPath>c17- calcula bocales de una frase.c</itemPath>
+      <itemPath>c17-.c</itemPath>
+      <itemPath>c18- area de triangulo.c</itemPath>
+      <itemPath>c19- mayor de 3.c</itemPath>
+      <itemPath>c2-mayor,menor,2numeros.c</itemPath>
+      <itemPath>c20- cubo de 5 numeros.c</itemPath>
+      <itemPath>c21-cifra y posición.c</itemPath>
+      <itemPath>c22-menu de funciones matematicas.c</itemPath>
+      <itemPath>c23-direccion de una variable.c</itemPath>
+      <itemPath>c24-suma de dos numeros-direccion.c</itemPath>
+      <itemPath>c25-valores de arreglo con punteros.c</itemPath>
+      <itemPath>c3-mayor,menor de edad.c</itemPath>
+      <itemPath>c4-mayor 4 numeros.c</itemPath>
+      <itemPath>c5-sueldo de trabajador.c</itemPath>
+      <itemPath>c6-numero negativo o positivo .c</itemPath>
+      <itemPath>c7-omitir numero.c</itemPath>
+      <itemPath>c8-dia de la semana.c</itemPath>
+      <itemPath>c9-calificacion .c</itemPath>
       <itemPath>menu-temperaturas-void.c</itemPath>
       <itemPath>tablas-for-anidado.c</itemPath>
       <itemPath>tablas-while-anidado.c</itemPath>
@@ -88,6 +114,76 @@
       <item path="Tarea1-Array.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea2-Array .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c1-par,impar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c10- menu de conversion de moneda.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c11-orden 10 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c12-media 10 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c13- menu 100 ascendente o descendente.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c14-menu de suma y promedio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c15-sum,rest,mult,div 10 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c16- tablas de multiplicar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c17- calcula bocales de una frase.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c17-.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c18- area de triangulo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c19- mayor de 3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c2-mayor,menor,2numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c20- cubo de 5 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c21-cifra y posición.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c22-menu de funciones matematicas.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c23-direccion de una variable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c24-suma de dos numeros-direccion.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c25-valores de arreglo con punteros.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c3-mayor,menor de edad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c4-mayor 4 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c5-sueldo de trabajador.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c6-numero negativo o positivo .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c7-omitir numero.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c8-dia de la semana.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c9-calificacion .c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="menu-temperaturas-void.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -149,6 +245,76 @@
       <item path="Tarea1-Array.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea2-Array .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c1-par,impar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c10- menu de conversion de moneda.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c11-orden 10 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c12-media 10 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c13- menu 100 ascendente o descendente.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c14-menu de suma y promedio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c15-sum,rest,mult,div 10 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c16- tablas de multiplicar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c17- calcula bocales de una frase.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c17-.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c18- area de triangulo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c19- mayor de 3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c2-mayor,menor,2numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c20- cubo de 5 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c21-cifra y posición.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c22-menu de funciones matematicas.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c23-direccion de una variable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c24-suma de dos numeros-direccion.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c25-valores de arreglo con punteros.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="c3-mayor,menor de edad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c4-mayor 4 numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c5-sueldo de trabajador.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c6-numero negativo o positivo .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c7-omitir numero.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c8-dia de la semana.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c9-calificacion .c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="menu-temperaturas-void.c" ex="false" tool="0" flavor2="0">
       </item>
