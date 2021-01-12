@@ -38,12 +38,12 @@
       <itemPath>c15-sum,rest,mult,div 10 numeros.c</itemPath>
       <itemPath>c16- tablas de multiplicar.c</itemPath>
       <itemPath>c17- calcula bocales de una frase.c</itemPath>
-      <itemPath>c17-.c</itemPath>
       <itemPath>c18- area de triangulo.c</itemPath>
       <itemPath>c19- mayor de 3.c</itemPath>
       <itemPath>c2-mayor,menor,2numeros.c</itemPath>
       <itemPath>c20- cubo de 5 numeros.c</itemPath>
       <itemPath>c21-cifra y posición.c</itemPath>
+      <itemPath>c22-menu de funciones matematicas-fail.c</itemPath>
       <itemPath>c22-menu de funciones matematicas.c</itemPath>
       <itemPath>c23-direccion de una variable.c</itemPath>
       <itemPath>c24-suma de dos numeros-direccion.c</itemPath>
@@ -55,6 +55,9 @@
       <itemPath>c7-omitir numero.c</itemPath>
       <itemPath>c8-dia de la semana.c</itemPath>
       <itemPath>c9-calificacion .c</itemPath>
+      <itemPath>cadenasyarrays.c</itemPath>
+      <itemPath>cadenasyarrays2.c</itemPath>
+      <itemPath>longitud de una cadena de texto.c</itemPath>
       <itemPath>menu-temperaturas-void.c</itemPath>
       <itemPath>tablas-for-anidado.c</itemPath>
       <itemPath>tablas-while-anidado.c</itemPath>
@@ -142,8 +145,6 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="c17-.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="c18- area de triangulo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="c19- mayor de 3.c" ex="false" tool="0" flavor2="0">
@@ -153,6 +154,11 @@
       <item path="c20- cubo de 5 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="c21-cifra y posición.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c22-menu de funciones matematicas-fail.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="c22-menu de funciones matematicas.c"
             ex="false"
@@ -184,6 +190,12 @@
       <item path="c8-dia de la semana.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="c9-calificacion .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cadenasyarrays.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cadenasyarrays2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="longitud de una cadena de texto.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="menu-temperaturas-void.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -273,8 +285,6 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="c17-.c" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="c18- area de triangulo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="c19- mayor de 3.c" ex="false" tool="0" flavor2="0">
@@ -284,6 +294,11 @@
       <item path="c20- cubo de 5 numeros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="c21-cifra y posición.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="c22-menu de funciones matematicas-fail.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="c22-menu de funciones matematicas.c"
             ex="false"
@@ -315,6 +330,12 @@
       <item path="c8-dia de la semana.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="c9-calificacion .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cadenasyarrays.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cadenasyarrays2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="longitud de una cadena de texto.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="menu-temperaturas-void.c" ex="false" tool="0" flavor2="0">
       </item>

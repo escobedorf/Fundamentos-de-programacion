@@ -61,12 +61,12 @@ OBJECTFILES= \
 	${OBJECTDIR}/c15-sum,rest,mult,div\ 10\ numeros.o \
 	${OBJECTDIR}/c16-\ tablas\ de\ multiplicar.o \
 	${OBJECTDIR}/c17-\ calcula\ bocales\ de\ una\ frase.o \
-	${OBJECTDIR}/c17-.o \
 	${OBJECTDIR}/c18-\ area\ de\ triangulo.o \
 	${OBJECTDIR}/c19-\ mayor\ de\ 3.o \
 	${OBJECTDIR}/c2-mayor,menor,2numeros.o \
 	${OBJECTDIR}/c20-\ cubo\ de\ 5\ numeros.o \
 	${OBJECTDIR}/c21-cifra\ y\ posición.o \
+	${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas-fail.o \
 	${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas.o \
 	${OBJECTDIR}/c23-direccion\ de\ una\ variable.o \
 	${OBJECTDIR}/c24-suma\ de\ dos\ numeros-direccion.o \
@@ -78,6 +78,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/c7-omitir\ numero.o \
 	${OBJECTDIR}/c8-dia\ de\ la\ semana.o \
 	${OBJECTDIR}/c9-calificacion\ .o \
+	${OBJECTDIR}/cadenasyarrays.o \
+	${OBJECTDIR}/cadenasyarrays2.o \
+	${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o \
 	${OBJECTDIR}/menu-temperaturas-void.o \
 	${OBJECTDIR}/tablas-for-anidado.o \
 	${OBJECTDIR}/tablas-while-anidado.o
@@ -246,11 +249,6 @@ ${OBJECTDIR}/c17-\ calcula\ bocales\ de\ una\ frase.o: c17-\ calcula\ bocales\ d
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c17-\ calcula\ bocales\ de\ una\ frase.o c17-\ calcula\ bocales\ de\ una\ frase.c
 
-${OBJECTDIR}/c17-.o: c17-.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c17-.o c17-.c
-
 .NO_PARALLEL:${OBJECTDIR}/c18-\ area\ de\ triangulo.o
 ${OBJECTDIR}/c18-\ area\ de\ triangulo.o: c18-\ area\ de\ triangulo.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -279,6 +277,12 @@ ${OBJECTDIR}/c21-cifra\ y\ posición.o: c21-cifra\ y\ posición.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c21-cifra\ y\ posición.o c21-cifra\ y\ posición.c
+
+.NO_PARALLEL:${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas-fail.o
+${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas-fail.o: c22-menu\ de\ funciones\ matematicas-fail.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas-fail.o c22-menu\ de\ funciones\ matematicas-fail.c
 
 .NO_PARALLEL:${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas.o
 ${OBJECTDIR}/c22-menu\ de\ funciones\ matematicas.o: c22-menu\ de\ funciones\ matematicas.c
@@ -345,6 +349,22 @@ ${OBJECTDIR}/c9-calificacion\ .o: c9-calificacion\ .c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/c9-calificacion\ .o c9-calificacion\ .c
+
+${OBJECTDIR}/cadenasyarrays.o: cadenasyarrays.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cadenasyarrays.o cadenasyarrays.c
+
+${OBJECTDIR}/cadenasyarrays2.o: cadenasyarrays2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cadenasyarrays2.o cadenasyarrays2.c
+
+.NO_PARALLEL:${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o
+${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o: longitud\ de\ una\ cadena\ de\ texto.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o longitud\ de\ una\ cadena\ de\ texto.c
 
 ${OBJECTDIR}/menu-temperaturas-void.o: menu-temperaturas-void.c
 	${MKDIR} -p ${OBJECTDIR}
