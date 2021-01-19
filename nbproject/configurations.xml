@@ -29,6 +29,7 @@
       <itemPath>Tablas-While.c</itemPath>
       <itemPath>Tarea1-Array.c</itemPath>
       <itemPath>Tarea2-Array .c</itemPath>
+      <itemPath>abecedario.c</itemPath>
       <itemPath>c1-par,impar.c</itemPath>
       <itemPath>c10- menu de conversion de moneda.c</itemPath>
       <itemPath>c11-orden 10 numeros.c</itemPath>
@@ -57,6 +58,9 @@
       <itemPath>c9-calificacion .c</itemPath>
       <itemPath>cadenasyarrays.c</itemPath>
       <itemPath>cadenasyarrays2.c</itemPath>
+      <itemPath>funciones en c.c</itemPath>
+      <itemPath>funciones.h</itemPath>
+      <itemPath>funciones2.h</itemPath>
       <itemPath>longitud de una cadena de texto.c</itemPath>
       <itemPath>menu-temperaturas-void.c</itemPath>
       <itemPath>tablas-for-anidado.c</itemPath>
@@ -117,6 +121,8 @@
       <item path="Tarea1-Array.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea2-Array .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="abecedario.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="c1-par,impar.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -194,6 +200,12 @@
       <item path="cadenasyarrays.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="cadenasyarrays2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funciones en c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funciones.h" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funciones2.h" ex="false" tool="0" flavor2="0">
       </item>
       <item path="longitud de una cadena de texto.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -258,6 +270,8 @@
       </item>
       <item path="Tarea2-Array .c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="abecedario.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="c1-par,impar.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="c10- menu de conversion de moneda.c"
@@ -334,6 +348,12 @@
       <item path="cadenasyarrays.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="cadenasyarrays2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funciones en c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funciones.h" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funciones2.h" ex="false" tool="0" flavor2="0">
       </item>
       <item path="longitud de una cadena de texto.c" ex="false" tool="0" flavor2="0">
       </item>

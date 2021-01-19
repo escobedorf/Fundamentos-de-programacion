@@ -52,6 +52,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tablas-While.o \
 	${OBJECTDIR}/Tarea1-Array.o \
 	${OBJECTDIR}/Tarea2-Array\ .o \
+	${OBJECTDIR}/abecedario.o \
 	${OBJECTDIR}/c1-par,impar.o \
 	${OBJECTDIR}/c10-\ menu\ de\ conversion\ de\ moneda.o \
 	${OBJECTDIR}/c11-orden\ 10\ numeros.o \
@@ -80,6 +81,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/c9-calificacion\ .o \
 	${OBJECTDIR}/cadenasyarrays.o \
 	${OBJECTDIR}/cadenasyarrays2.o \
+	${OBJECTDIR}/funciones\ en\ c.o \
+	${OBJECTDIR}/funciones.o \
+	${OBJECTDIR}/funciones2.o \
 	${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o \
 	${OBJECTDIR}/menu-temperaturas-void.o \
 	${OBJECTDIR}/tablas-for-anidado.o \
@@ -195,6 +199,11 @@ ${OBJECTDIR}/Tarea2-Array\ .o: Tarea2-Array\ .c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2-Array\ .o Tarea2-Array\ .c
+
+${OBJECTDIR}/abecedario.o: abecedario.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/abecedario.o abecedario.c
 
 ${OBJECTDIR}/c1-par,impar.o: c1-par,impar.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -359,6 +368,22 @@ ${OBJECTDIR}/cadenasyarrays2.o: cadenasyarrays2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cadenasyarrays2.o cadenasyarrays2.c
+
+.NO_PARALLEL:${OBJECTDIR}/funciones\ en\ c.o
+${OBJECTDIR}/funciones\ en\ c.o: funciones\ en\ c.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones\ en\ c.o funciones\ en\ c.c
+
+${OBJECTDIR}/funciones.o: funciones.h
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones.o funciones.h
+
+${OBJECTDIR}/funciones2.o: funciones2.h
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones2.o funciones2.h
 
 .NO_PARALLEL:${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o
 ${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o: longitud\ de\ una\ cadena\ de\ texto.c
