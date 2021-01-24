@@ -17,9 +17,12 @@
       <itemPath>3-Ordenamiento-Burbuja.c</itemPath>
       <itemPath>4-Ordenamiento-Optimizado.c</itemPath>
       <itemPath>Calculador-de-temperaturas.c</itemPath>
+      <itemPath>Factorial_recursivo.c</itemPath>
       <itemPath>Fibonacci-while.c</itemPath>
+      <itemPath>Fibonaccil_recursivo.c</itemPath>
       <itemPath>Funciones.c</itemPath>
       <itemPath>Funciones2.c</itemPath>
+      <itemPath>GuardarDatos.c</itemPath>
       <itemPath>Mayor-de-3.c</itemPath>
       <itemPath>Mayor-de-4.c</itemPath>
       <itemPath>Menu-Temperaturas-while.c</itemPath>
@@ -29,6 +32,7 @@
       <itemPath>Tablas-While.c</itemPath>
       <itemPath>Tarea1-Array.c</itemPath>
       <itemPath>Tarea2-Array .c</itemPath>
+      <itemPath>Torre-de-Hanoi_recursivo.c</itemPath>
       <itemPath>abecedario.c</itemPath>
       <itemPath>c1-par,impar.c</itemPath>
       <itemPath>c10- menu de conversion de moneda.c</itemPath>
@@ -98,11 +102,17 @@
       </item>
       <item path="Calculador-de-temperaturas.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Factorial_recursivo.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Fibonaccil_recursivo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Funciones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Funciones2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="GuardarDatos.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Mayor-de-3.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -121,6 +131,8 @@
       <item path="Tarea1-Array.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea2-Array .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Torre-de-Hanoi_recursivo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="abecedario.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -246,11 +258,17 @@
       </item>
       <item path="Calculador-de-temperaturas.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Factorial_recursivo.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Fibonacci-while.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Fibonaccil_recursivo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Funciones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Funciones2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="GuardarDatos.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Mayor-de-3.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -269,6 +287,8 @@
       <item path="Tarea1-Array.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea2-Array .c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Torre-de-Hanoi_recursivo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="abecedario.c" ex="false" tool="0" flavor2="0">
       </item>

@@ -40,9 +40,12 @@ OBJECTFILES= \
 	${OBJECTDIR}/3-Ordenamiento-Burbuja.o \
 	${OBJECTDIR}/4-Ordenamiento-Optimizado.o \
 	${OBJECTDIR}/Calculador-de-temperaturas.o \
+	${OBJECTDIR}/Factorial_recursivo.o \
 	${OBJECTDIR}/Fibonacci-while.o \
+	${OBJECTDIR}/Fibonaccil_recursivo.o \
 	${OBJECTDIR}/Funciones.o \
 	${OBJECTDIR}/Funciones2.o \
+	${OBJECTDIR}/GuardarDatos.o \
 	${OBJECTDIR}/Mayor-de-3.o \
 	${OBJECTDIR}/Mayor-de-4.o \
 	${OBJECTDIR}/Menu-Temperaturas-while.o \
@@ -52,6 +55,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tablas-While.o \
 	${OBJECTDIR}/Tarea1-Array.o \
 	${OBJECTDIR}/Tarea2-Array\ .o \
+	${OBJECTDIR}/Torre-de-Hanoi_recursivo.o \
 	${OBJECTDIR}/abecedario.o \
 	${OBJECTDIR}/c1-par,impar.o \
 	${OBJECTDIR}/c10-\ menu\ de\ conversion\ de\ moneda.o \
@@ -82,8 +86,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/cadenasyarrays.o \
 	${OBJECTDIR}/cadenasyarrays2.o \
 	${OBJECTDIR}/funciones\ en\ c.o \
-	${OBJECTDIR}/funciones.o \
-	${OBJECTDIR}/funciones2.o \
 	${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o \
 	${OBJECTDIR}/menu-temperaturas-void.o \
 	${OBJECTDIR}/tablas-for-anidado.o \
@@ -139,10 +141,20 @@ ${OBJECTDIR}/Calculador-de-temperaturas.o: Calculador-de-temperaturas.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Calculador-de-temperaturas.o Calculador-de-temperaturas.c
 
+${OBJECTDIR}/Factorial_recursivo.o: Factorial_recursivo.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Factorial_recursivo.o Factorial_recursivo.c
+
 ${OBJECTDIR}/Fibonacci-while.o: Fibonacci-while.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Fibonacci-while.o Fibonacci-while.c
+
+${OBJECTDIR}/Fibonaccil_recursivo.o: Fibonaccil_recursivo.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Fibonaccil_recursivo.o Fibonaccil_recursivo.c
 
 ${OBJECTDIR}/Funciones.o: Funciones.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -153,6 +165,11 @@ ${OBJECTDIR}/Funciones2.o: Funciones2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Funciones2.o Funciones2.c
+
+${OBJECTDIR}/GuardarDatos.o: GuardarDatos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/GuardarDatos.o GuardarDatos.c
 
 ${OBJECTDIR}/Mayor-de-3.o: Mayor-de-3.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -199,6 +216,11 @@ ${OBJECTDIR}/Tarea2-Array\ .o: Tarea2-Array\ .c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2-Array\ .o Tarea2-Array\ .c
+
+${OBJECTDIR}/Torre-de-Hanoi_recursivo.o: Torre-de-Hanoi_recursivo.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Torre-de-Hanoi_recursivo.o Torre-de-Hanoi_recursivo.c
 
 ${OBJECTDIR}/abecedario.o: abecedario.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -375,15 +397,15 @@ ${OBJECTDIR}/funciones\ en\ c.o: funciones\ en\ c.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones\ en\ c.o funciones\ en\ c.c
 
-${OBJECTDIR}/funciones.o: funciones.h
+${OBJECTDIR}/funciones.h.gch: funciones.h
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones.o funciones.h
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o "$@" funciones.h
 
-${OBJECTDIR}/funciones2.o: funciones2.h
+${OBJECTDIR}/funciones2.h.gch: funciones2.h
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones2.o funciones2.h
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o "$@" funciones2.h
 
 .NO_PARALLEL:${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o
 ${OBJECTDIR}/longitud\ de\ una\ cadena\ de\ texto.o: longitud\ de\ una\ cadena\ de\ texto.c
